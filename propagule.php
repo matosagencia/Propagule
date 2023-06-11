@@ -70,7 +70,7 @@
 <body>
     <div class="container">
         <div class="box">
-            <h2>Conversor de Palavras para Números</h2>
+            <h2>Conversor de Palavras Chave para Números</h2>
             <form method="post" action="" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="input">Digite as palavras semente da sua carteira Bitcoin (separadas por vírgula):</label>
