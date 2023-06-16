@@ -29,3 +29,27 @@ Este código em PHP foi desenvolvido para ajudar na recuperação de palavras se
 
 Este código foi projetado para ser executado localmente em um ambiente de desenvolvimento controlado. Não é recomendado executá-lo em um servidor web público ou em um ambiente de produção sem tomar as devidas precauções de segurança.
 
+## Tails
+Para executar o servidor Apache no Tails e abrir um arquivo em PHP, siga estas etapas:
+
+Inicie o Tails e aguarde até que esteja totalmente inicializado.
+
+Abra o Terminal. Você pode fazer isso clicando com o botão direito na área de trabalho e selecionando "Abrir Terminal" no menu de contexto.
+
+Digite o seguinte comando para iniciar o servidor Apache:
+
+sudo service apache2 start
+Pressione Enter e digite a senha do usuário root (geralmente "amnesia") quando solicitado. O servidor Apache será iniciado.
+
+Agora, coloque o arquivo PHP que você deseja executar no diretório padrão do Apache. O diretório padrão é /var/www/html/.
+
+Por exemplo, se você tiver um arquivo chamado "exemplo.php", copie-o para o diretório /var/www/html/. Você pode usar o comando cp para fazer isso. Por exemplo:
+
+sudo cp caminho/do/arquivo/exemplo.php /var/www/html/
+Abra um navegador da web no Tails e digite o seguinte endereço na barra de URL:
+
+http://localhost/propagule.php
+O arquivo PHP será executado e você poderá ver a saída no navegador.
+
+Certifique-se de que o Tails esteja configurado corretamente e tenha as permissões necessárias para executar o servidor Apache. Tenha em mente que o Tails é projetado para fornecer um ambiente de navegação seguro e anônimo, e a execução de um servidor web pode ter implicações de segurança e privacidade. Certifique-se de entender os riscos associados antes de prosseguir.
+
